@@ -1,0 +1,33 @@
+{% extends "master.html" %}
+
+
+{% block title %}
+  Listado de Telefonos
+{% endblock %}
+
+{% block content %}
+
+<table id = "datos">
+    <thead>
+        <tr>
+            <th>Numero</th>
+            <th>Tipo</th>
+            <th>Estudiante</th>
+        </tr>
+    </thead>
+    {% for e in telefonos %}
+        <tr>
+            <td>{{e.telefono}}</td>
+            <td>{{e.tipo}}</td>
+            <td>{{e.estudiante.nombre}}</td>
+        </tr>
+    {% endfor %}
+
+</table>
+<script type="text/javascript">
+    $(document).ready( function () {
+      $('#datos').DataTable();
+    });
+  </script>
+
+{% endblock %}

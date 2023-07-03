@@ -32,9 +32,9 @@ input[type=text], input[type=number] {
   box-sizing: border-box;
 }
 
-input[type=text|number]:focus {
+/*input[type=text|number]:focus {
   border: 3px solid blue;
-}
+}*/
 
 label {
   padding: 12px 10px;

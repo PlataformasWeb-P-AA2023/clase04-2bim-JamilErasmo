@@ -2,17 +2,17 @@
 
 body {
   /*background: #FEFEFD;*/
-  background: #FEFEFD;
+  background: #ffefef;
   padding: 10px;
 
 }
 
 section {
-  background: #F4AB14;
+  background: rgb(163, 255, 228);
 }
 
 header {
-  background: #034275;
+  background: #ffc548e8;
   color: #FFF;
 }
 /* manejo de las características de la etiqueta table*/
@@ -31,9 +31,7 @@ input[type=text], input[type=number] {
   box-sizing: border-box;
 }
 
-input[type=text|number]:focus {
-  border: 3px solid blue;
-}
+
 
 label {
   padding: 12px 10px;
@@ -72,9 +70,9 @@ label {
   margin-bottom:5px;
   text: #FFF;
 
-}
+} 
 
 footer{
-  background: #5E5E5E;
+  background: #5e8496;
   color: #FFF;
 }
